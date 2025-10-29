@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipico Prototype</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tipico Prototype</h1>
+    </header>
+    <main>
+        <section class="game-listings">
+            <h2>Football Matches</h2>
+            <div id="matches-container"></div>
+        </section>
+        <aside class="betting-slip">
+            <h2>Betting Slip</h2>
+            <div id="slip-container"></div>
+            <div class="slip-total">
+                <p>Total Odds: <span id="total-odds">1.00</span></p>
+                <p>Stake: <input type="number" id="stake-input" placeholder="Enter stake"></p>
+                <p>Potential Winnings: <span id="potential-winnings">0.00</span></p>
+                <button id="place-bet-button">Place Bet</button>
+            </div>
+        </aside>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
